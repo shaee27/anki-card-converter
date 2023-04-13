@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "anki-card-converter"
+version = "0.1.0"
+description = "This tool automates the process of converting basic Anki cards into multiple choice cards, allowing users to test their knowledge by selecting the correct answer from a list of options."
+authors = ["Vladimir Rusakov <24524555+wervlad@users.noreply.github.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.scripts]
+convert = "anki_card_converter.convert:convert"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+mypy = "^1.2.0"
+flake8 = "^6.0.0"
+nox = "^2023.4.22"
+coverage = "^7.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
