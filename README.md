@@ -18,7 +18,7 @@ It converts Basic Card quiz questions
 
 <img src="https://user-images.githubusercontent.com/24524555/234809596-0b65399f-9cfa-49b8-83ca-7a98631e038a.png" alt="basic card back" width="50%" height="auto">
 
-into AllInOne Card format, which allows selecting options like in interactive mode
+into AllInOne Card format, which allows selecting options in interactive mode
 
 <img src="https://user-images.githubusercontent.com/24524555/234809631-0ebbbe32-f722-4a21-a3da-810648f26553.png" alt="allinone card front" width="50%" height="auto">
 
