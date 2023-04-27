@@ -10,6 +10,8 @@
 
 # Anki Card Converter
 
+**Notice: Early Development Stage**
+
 This converter is intended for use with the [Multiple Choice for Anki add-on](https://ankiweb.net/shared/info/1566095810).
 
 It converts Basic Card quiz questions
@@ -43,6 +45,6 @@ poetry install --no-dev
 ```sh
 poetry run convert -i <input file.txt> -o <output file.txt>
 ```
-7. Import converted file in Anki.
+6. Import converted file in Anki.
 
 **Note**: to replace oritinal cards with converted, first change their type to AllInOne. Go to "Browse" window, select cards, right click on them and select Notes -> Change Note Type (Ctrl + Shift + M). In drop down menu select "AllInOne (kprim, mc, sc)" and click "Save".
